@@ -21,7 +21,15 @@ namespace Assignment1_JennyTrieu
             int months;
             int years;
 
+            //Prompt user to put in the input
+            Console.WriteLine("Enter Initial winnings: ");
+            initial = double.Parse(Console.ReadLine());
 
+            Console.WriteLine("Enter Interest rate %: ");
+            ratePercent = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter how many years you wnt to invest: ");
+            years = int.Parse(Console.ReadLine());
         }
     }
 }
