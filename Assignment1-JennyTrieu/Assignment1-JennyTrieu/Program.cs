@@ -4,3 +4,24 @@
 /// Author : Jenny Trieu
 /// Date : Febuary 10 2026
 ///</summary>
+
+using System;
+
+namespace Assignment1_JennyTrieu
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //Declare Varibles 
+            double initial;
+            double ratePercent;
+            double monthlyRate;
+            double futureValue;
+            int months;
+            int years;
+
+
+        }
+    }
+}
