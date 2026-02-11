@@ -22,6 +22,7 @@ namespace Assignment1_JennyTrieu
             int years;
 
             //Prompt user to put in the input
+            Console.WriteLine("---FUTURE VALUE CALCULATOR--");
             Console.Write("Enter Initial winnings: ");
             initial = double.Parse(Console.ReadLine());
 
@@ -38,7 +39,17 @@ namespace Assignment1_JennyTrieu
             futureValue = initial * Math.Pow(1 + monthlyRate, months);
 
             //Display the results
-
+            Console.WriteLine("---Summary---");
+            Console.WriteLine($"Initial: {initial:C2}");
+            Console.WriteLine($"Rate: {ratePercent}%");
+            Console.WriteLine($"Years: {years}");
+            Console.WriteLine($"Future Value: {futureValue:C2}");
+            Console.WriteLine();
+            Console.WriteLine($"The future value amount of {initial:C2} in {years} is {futureValue:C2}. Thank you goodbye.");
+            Console.WriteLine();
+            Console.WriteLine("---NOTES---");
+            Console.WriteLine("-The interest rate was converted to monthly. ");
+            Console.WriteLine("-The years were converted to months. ");
         }
     }
 }
