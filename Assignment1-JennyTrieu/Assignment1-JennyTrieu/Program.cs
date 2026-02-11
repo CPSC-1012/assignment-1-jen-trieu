@@ -30,6 +30,14 @@ namespace Assignment1_JennyTrieu
 
             Console.WriteLine("Enter how many years you wnt to invest: ");
             years = int.Parse(Console.ReadLine());
+
+            //Calculations
+            monthlyRate = (ratePercent / 100) / 12;
+            months = years * 12;
+
+            futureValue = initial * Math.Pow(1 + monthlyRate, months);
+
+
         }
     }
 }
