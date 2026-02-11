@@ -29,7 +29,7 @@ namespace Assignment1_JennyTrieu
             Console.Write("Enter Interest rate %: ");
             ratePercent = double.Parse(Console.ReadLine());
 
-            Console.Write("Enter how many years you wnt to invest: ");
+            Console.Write("Enter how many years you want to invest: ");
             years = int.Parse(Console.ReadLine());
 
             //Calculations
