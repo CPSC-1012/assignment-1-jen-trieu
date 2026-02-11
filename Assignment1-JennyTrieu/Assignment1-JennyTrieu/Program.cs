@@ -22,13 +22,13 @@ namespace Assignment1_JennyTrieu
             int years;
 
             //Prompt user to put in the input
-            Console.WriteLine("Enter Initial winnings: ");
+            Console.Write("Enter Initial winnings: ");
             initial = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter Interest rate %: ");
+            Console.Write("Enter Interest rate %: ");
             ratePercent = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Enter how many years you wnt to invest: ");
+            Console.Write("Enter how many years you wnt to invest: ");
             years = int.Parse(Console.ReadLine());
 
             //Calculations
@@ -37,6 +37,7 @@ namespace Assignment1_JennyTrieu
 
             futureValue = initial * Math.Pow(1 + monthlyRate, months);
 
+            //Display the results
 
         }
     }
